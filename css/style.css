@@ -32,6 +32,15 @@ p, .paragraph {
   font-family: "Poppins", sans-serif;
 }
 
+.pcenter {
+  font-weight: 400;
+  color: #5c5c77;
+  font-size: 15px;
+  line-height: 1.9;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #191970;
   font-family: "futura-bold";
