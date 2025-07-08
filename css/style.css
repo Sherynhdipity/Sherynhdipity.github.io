@@ -42,7 +42,7 @@ p, .paragraph {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #191970;
+  color: #800000;
   font-family: "futura-bold";
   font-weight: 700;
   line-height: 1.2;
@@ -175,7 +175,7 @@ h6, .h6 {
 
 .btn-primary {
   background: #fff;
-  color: #191970;
+  color: #800000;
 }
 
 .btn-primary::before {
@@ -192,30 +192,30 @@ h6, .h6 {
 }
 
 .btn-primary:hover {
-  background: #191970;
-  color: #191970;
+  background: #800000;
+  color: #800000;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #191970;
-  border-color: #191970;
+  background-color: #800000;
+  border-color: #800000;
 }
 
 .btn-secondary {
   background: #fff;
-  color: #191970;
+  color: #800000;
   border: 1px solid #fff;
 }
 
 .btn-secondary::before {
-  background: #191970;
+  background: #800000;
 }
 
 .btn-secondary:active {
-  background: #191970;
+  background: #800000;
   color: #fff;
   border: 1px solid #fff;
 }
@@ -227,8 +227,8 @@ h6, .h6 {
 }
 
 .btn-primary-outline {
-  border: 1px solid #191970;
-  color: #191970;
+  border: 1px solid #800000;
+  color: #800000;
   background: transparent;
 }
 
@@ -237,12 +237,12 @@ h6, .h6 {
 }
 
 .btn-primary-outline:hover {
-  background: #191970;
-  color: #191970;
+  background: #800000;
+  color: #800000;
 }
 
 .btn-primary-outline:active {
-  background: #191970;
+  background: #800000;
   color: #fff;
 }
 
@@ -252,12 +252,12 @@ body {
 }
 
 ::-moz-selection {
-  background: #191970;
+  background: #800000;
   color: #fff;
 }
 
 ::selection {
-  background: #191970;
+  background: #800000;
   color: #fff;
 }
 
@@ -287,7 +287,7 @@ img {
 }
 
 a {
-  color: #191970;
+  color: #800000;
 }
 
 a,
@@ -310,15 +310,15 @@ select:focus {
 }
 
 a:hover {
-  color: #191970;
+  color: #800000;
 }
 
 a.text-primary:hover {
-  color: #191970 !important;
+  color: #800000 !important;
 }
 
 a.text-light:hover {
-  color: #191970 !important;
+  color: #800000 !important;
 }
 
 h4 {
@@ -326,7 +326,7 @@ h4 {
 }
 
 a h4:hover {
-  color: #191970;
+  color: #800000;
 }
 
 .slick-slide {
@@ -384,7 +384,7 @@ a h4:hover {
 }
 
 .bg-primary {
-  background: #191970 !important;
+  background: #800000 !important;
 }
 
 .bg-secondary {
@@ -521,7 +521,7 @@ a h4:hover {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background: #191970;
+  background: #800000;
   left: -25px;
   top: 5px;
 }
@@ -555,24 +555,24 @@ textarea.form-control {
 @media (max-width: 991px) {
   .header {
     position: static !important;
-    background: #1a1a37;
+    background: #371a1a;
   }
 }
 
 .navigation {
-  background-image: linear-gradient(to right, transparent 50%, #191970 50%);
+  background-image: linear-gradient(to right, transparent 50%, #800000 50%);
   transition: .2s ease;
 }
 
 @media (max-width: 575px) {
   .navigation {
-    background-image: linear-gradient(to right, transparent 70%, #191970 30%);
+    background-image: linear-gradient(to right, transparent 70%, #800000 30%);
   }
 }
 
 .navbar-nav {
   padding-left: 50px;
-  background: #191970;
+  background: #800000;
 }
 
 @media (max-width: 991px) {
@@ -582,7 +582,7 @@ textarea.form-control {
 }
 
 .nav-bg {
-  background-color: #1a1a37;
+  background-color: #371a1a;
   margin-top: -46px;
 }
 
@@ -664,7 +664,7 @@ link:focus,
 
 .navbar .dropdown-menu {
   box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
-  border-bottom: 5px solid #191970;
+  border-bottom: 5px solid #800000;
   padding: 15px;
   top: 96px;
   border-radius: 0;
@@ -715,7 +715,7 @@ link:focus,
 
 .navbar .dropdown-item {
   position: relative;
-  color: #1e1e4b;
+  color: #4b1e20;
   transition: .2s ease;
   font-family: "Poppins", sans-serif;
 }
@@ -731,7 +731,7 @@ link:focus,
 }
 
 .navbar .dropdown-item:hover {
-  color: #191970;
+  color: #800000;
   background: transparent;
 }
 
@@ -759,7 +759,7 @@ link:focus,
 
 .hero-slider .prevArrow:hover,
 .hero-slider .nextArrow:hover {
-  color: #191970;
+  color: #800000;
 }
 
 .hero-slider .prevArrow {
@@ -783,7 +783,7 @@ link:focus,
 }
 
 .hero-slider .slick-dots li.slick-active button {
-  background: #191970;
+  background: #800000;
 }
 
 .hero-slider .slick-dots li button {
@@ -800,7 +800,7 @@ link:focus,
 /* banner feature */
 .feature-icon {
   font-size: 50px;
-  color: #191970;
+  color: #800000;
   display: inline-block;
 }
 
@@ -884,7 +884,7 @@ link:focus,
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background: #191970;
+  background: #800000;
   color: #fff;
   font-size: 20px;
   text-align: center;
@@ -917,7 +917,7 @@ link:focus,
   width: 80%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background: #191970;
+  background: #800000;
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -941,7 +941,7 @@ link:focus,
 /* events */
 .card-date {
   position: absolute;
-  background: #191970;
+  background: #800000;
   font-family: "futura-bold";
   text-align: center;
   padding: 10px;
@@ -966,7 +966,7 @@ link:focus,
 /* /teacher */
 /* footer */
 .newsletter {
-  background-image: linear-gradient(to right, transparent 50%, #191970 50%);
+  background-image: linear-gradient(to right, transparent 50%, #800000 50%);
   margin-bottom: -100px;
   position: relative;
   z-index: 1;
@@ -1002,7 +1002,7 @@ link:focus,
 }
 
 .form-control:focus {
-  border-color: #191970;
+  border-color: #800000;
   box-shadow: none;
 }
 
@@ -1011,7 +1011,7 @@ link:focus,
 }
 
 .bg-footer {
-  background-color: #182b45;
+  background-color: #5c2130;
 }
 
 .logo-footer {
@@ -1032,11 +1032,11 @@ link:focus,
 
 .filter-controls li.mixitup-control-active {
   font-weight: 600;
-  color: #191970;
+  color: #800000;
 }
 
 .filter-controls li:hover {
-  color: #191970;
+  color: #800000;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
